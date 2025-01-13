@@ -1,10 +1,11 @@
-
+import Chai from "./chai"
 
 function App() {
-  
-
-  return (
-   <h1>chai aur code</h1> 
+    return (
+       <>    
+    <Chai /> 
+    <h1>welcome {"<>"} called fragment here</h1>
+    </>
   )
 }
 

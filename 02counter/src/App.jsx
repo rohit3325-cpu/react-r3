@@ -17,8 +17,13 @@ function App() {
          setCounter(counter)
     }
     else{
-    counter= counter+1;
-    setCounter(counter)
+    // counter= counter+1;
+    // In react the working is done in the groups like it takes a bundle of task and perform them so it takes same counter value always in every operation so we have to use the call back method.
+    setCounter(prevCounter=> prevCounter+1)
+    setCounter(prevCounter=> prevCounter+1)
+    setCounter(prevCounter=> prevCounter+1)
+    setCounter(prevCounter=> prevCounter+1)
+    
     }
   }
   const reducevalue = ()=> {

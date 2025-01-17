@@ -49,4 +49,4 @@ render(
 //         3rd is the children part 
 //         4th is the rest variable name
 // )
-// bable inject this reactElement.reactElement
+// bable inject this .reactElement

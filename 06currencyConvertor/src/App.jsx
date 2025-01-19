@@ -42,7 +42,7 @@ function App() {
               convert();
             }}
           >
-            <div className="w-full mb-1">
+            <div className="w-full mb-2">
               <InputBox
                 label="From"
                 amount={amount}

@@ -57,7 +57,7 @@ async logout(){
         console.log("Appwrite services :: logout :: error",error);
     }
 }
-
+}
 const authService = new AuthService();
 
 export default authService;
